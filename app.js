@@ -30,9 +30,12 @@ function faqExpand() {
     arrow1.addEventListener("click", () => {
         arrow1.classList.toggle("arrowFlip")
         box1.classList.toggle("boxExpand")
-        setTimeout(() => {
-            answer1.style.opacity = "1"
-        }, 100);
+        answer1.classList.toggle("reveal")
+        question1.classList.toggle("bolder")
+    })
+    question1.addEventListener("click", () => {
+        arrow1.classList.toggle("arrowFlip")
+        box1.classList.toggle("boxExpand")
         answer1.classList.toggle("reveal")
         question1.classList.toggle("bolder")
     })
@@ -40,9 +43,12 @@ function faqExpand() {
     arrow2.addEventListener("click", () => {
         arrow2.classList.toggle("arrowFlip")
         box2.classList.toggle("boxExpand")
-        setTimeout(() => {
-            answer2.style.opacity = "1"
-        }, 100);
+        answer2.classList.toggle("reveal")
+        question2.classList.toggle("bolder")
+    })
+    question2.addEventListener("click", () => {
+        arrow2.classList.toggle("arrowFlip")
+        box2.classList.toggle("boxExpand")
         answer2.classList.toggle("reveal")
         question2.classList.toggle("bolder")
     })
@@ -50,9 +56,12 @@ function faqExpand() {
     arrow3.addEventListener("click", () => {
         arrow3.classList.toggle("arrowFlip")
         box3.classList.toggle("boxExpand")
-        setTimeout(() => {
-            answer3.style.opacity = "1"
-        }, 100);
+        answer3.classList.toggle("reveal")
+        question3.classList.toggle("bolder")
+    })
+    question3.addEventListener("click", () => {
+        arrow3.classList.toggle("arrowFlip")
+        box3.classList.toggle("boxExpand")
         answer3.classList.toggle("reveal")
         question3.classList.toggle("bolder")
     })
@@ -60,9 +69,12 @@ function faqExpand() {
     arrow4.addEventListener("click", () => {
         arrow4.classList.toggle("arrowFlip")
         box4.classList.toggle("boxExpand")
-        setTimeout(() => {
-            answer4.style.opacity = "1"
-        }, 100);
+        answer4.classList.toggle("reveal")
+        question4.classList.toggle("bolder")
+    })
+    question4.addEventListener("click", () => {
+        arrow4.classList.toggle("arrowFlip")
+        box4.classList.toggle("boxExpand")
         answer4.classList.toggle("reveal")
         question4.classList.toggle("bolder")
     })
@@ -70,9 +82,12 @@ function faqExpand() {
     arrow5.addEventListener("click", () => {
         arrow5.classList.toggle("arrowFlip")
         box5.classList.toggle("boxExpand")
-        setTimeout(() => {
-            answer5.style.opacity = "1"
-        }, 100);
+        answer5.classList.toggle("reveal")
+        question5.classList.toggle("bolder")
+    })
+    question5.addEventListener("click", () => {
+        arrow5.classList.toggle("arrowFlip")
+        box5.classList.toggle("boxExpand")
         answer5.classList.toggle("reveal")
         question5.classList.toggle("bolder")
     })

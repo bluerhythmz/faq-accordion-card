@@ -24,18 +24,13 @@ body {
     height: 100vh;
     width: 100vw;
     background: linear-gradient(hsl(273, 75%, 66%), hsl(240, 73%, 65%));
-}
-
-.faq-container {
-    height: 100%;
-    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .faq-wrapper {
-    height: 900px;
+    height: 700px;
     width: 1440px;
     background-color: white;
     border-radius: 50px;

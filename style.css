@@ -30,8 +30,8 @@ body {
 }
 
 .faq-wrapper {
-    height: 570px;
-    width: 980px;
+    height: 500px;
+    width: 900px;
     background-color: white;
     border-radius: 30px;
     box-shadow: 0px 20px 30px 1px rgba(0, 0, 0, 0.212);
@@ -56,8 +56,8 @@ body {
     height: 950px;
     width: 990px;
     position: absolute;
-    top: -44%;
-    left: -60%;
+    top: -56%;
+    left: -68%;
     z-index: -1;
 }
 
@@ -67,10 +67,10 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     height: 400px;
-    width: 480px;
+    width: 430px;
     z-index: 5;
     position: absolute;
-    top: 15%;
+    top: 12%;
     left: -8%;
 }
 
@@ -82,8 +82,8 @@ body {
     height: 150px;
     width: 200px;
     position: absolute;
-    top: 48.5%;
-    left: 27.4%;
+    top: 48.3%;
+    left: 29%;
     z-index: 111;
 }
 
@@ -96,29 +96,29 @@ body {
 }
 
 .faq-box {
-    height: 70%;
     width: 50%;
     display: flex;
     align-items: flex-start;
-    justify-content: space-around;
+    justify-content: center;
     flex-direction: column;
+    margin-bottom: 40px;
 }
 
 .faq-box h1 {
-    margin-top: 6px;
+    margin-top: 56px;
     margin-bottom: 30px;
-    font-size: 36px;
+    font-size: 34px;
     font-weight: 700;
 }
 
 .question-box {
     display: flex;
     width: 80%;
-    height: 42px;
+    height: 38px;
     position: relative;
     border-bottom: 2px solid hsl(240, 5%, 91%);
     transition: all .2s ease;
-    margin-top: 15px;
+    margin-top: 20px;
 }
 
 .question-answer {
@@ -129,7 +129,7 @@ body {
 .question {
     font-weight: 400;
     color: hsl(238, 29%, 16%);
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .question:hover {
@@ -144,7 +144,8 @@ body {
     transition: .2s all linear;
     margin-top: 15px;
     line-height: 20px;
-    color: hsl(240, 6%, 50%)
+    color: hsl(240, 6%, 50%);
+    font-size: 14px;
 }
 
 .arrow {
@@ -159,7 +160,7 @@ body {
 }
 
 .boxExpand {
-    height: 100px;
+    height: 85px;
 }
 
 .reveal {
@@ -192,7 +193,7 @@ body {
         width: 200px;
         position: absolute;
         top: 48.5%;
-        left: 19.7%;
+        left: 21.3%;
         z-index: 111;
     }
 }
@@ -207,7 +208,7 @@ body {
         width: 200px;
         position: absolute;
         top: 48.5%;
-        left: 9.7%;
+        left: 11.7%;
         z-index: 111;
     }
 }

@@ -1,8 +1,25 @@
-/* const arrows = document.querySelectorAll('.arrow')
-const answers = document.querySelectorAll(".answer")
-const questionBoxes = document.querySelectorAll(".question-box") */
+const arrows = document.querySelectorAll('.arrow');
+const answers = document.querySelectorAll(".answer");
+const questionBoxes = document.querySelectorAll(".question-box");
+const questions = document.querySelectorAll('.question')
 
-const box1 = document.getElementById('box1')
+for (i = 0; i < questionBoxes.length; i++) {
+    for (j = 0; j < answers.length; j++) {
+        questionBoxes[i].addEventListener("click", ((j) => {
+            return function reveal() {
+                answers[j].classList.toggle("reveal")
+                questionBoxes[j].classList.toggle("boxExpand")
+                arrows[j].classList.toggle("arrowFlip")
+                questions[j].classList.toggle("bolder")
+            }
+        })(i)
+        )
+    }
+}
+
+
+
+/* const box1 = document.getElementById('box1')
 const box2 = document.getElementById('box2')
 const box3 = document.getElementById('box3')
 const box4 = document.getElementById('box4')
@@ -93,7 +110,7 @@ function faqExpand() {
     })
 }
 
-faqExpand()
+faqExpand() */
 
 /* function arrowStuff() {
     for (let i=0; i < arrows.length; i++) {
